@@ -1,15 +1,15 @@
 ; Run parameters
 integrator              = md        ; leap-frog integrator
-nsteps                  = 500000    ; 2 * 500000 = 1000 ps (1 ns)
+nsteps                  = 100000    ; 2 * 100000 = 200 ps (0.2 ns)
 dt                      = 0.002     ; 2 fs
 
 ; Output control
 nstxout                 = 0         ; suppress bulky .trr file by specifying 
 nstvout                 = 0         ; 0 for output frequency of nstxout,
 nstfout                 = 0         ; nstvout, and nstfout
-nstenergy               = 5000      ; save energies every 10.0 ps
-nstlog                  = 5000      ; update log file every 10.0 ps
-nstxout-compressed      = 5000      ; save compressed coordinates every 10.0 ps
+nstenergy               = 1000      ; save energies every 2.0 ps
+nstlog                  = 1000      ; update log file every 2.0 ps
+nstxout-compressed      = 1000      ; save compressed coordinates every 2.0 ps
 compressed-x-grps       = System    ; save the whole system
 
 ; Bond parameters

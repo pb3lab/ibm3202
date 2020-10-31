@@ -5,10 +5,13 @@ nsteps                  = 50000     ; 2 * 50000 = 100 ps
 dt                      = 0.002     ; 2 fs
 
 ; Output control
-nstxout                 = 500       ; save coordinates every 1.0 ps
-nstvout                 = 500       ; save velocities every 1.0 ps
+nstxout                 = 0         ; suppress bulky .trr file by specifying 
+nstvout                 = 0         ; 0 for output frequency of nstxout,
+nstfout                 = 0         ; nstvout, and nstfout
 nstenergy               = 500       ; save energies every 1.0 ps
 nstlog                  = 500       ; update log file every 1.0 ps
+nstxout-compressed      = 500       ; save compressed coordinates every 1.0 ps
+compressed-x-grps       = System    ; save the whole system
 
 ; Bond parameters
 continuation            = no        ; first dynamics run
