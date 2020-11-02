@@ -1,0 +1,62 @@
+integrator = sd		; use Langevin dynamics
+dt 	= 0.0005	; time step in reduced units 
+
+nsteps	= 50000000 	; number of integration steps 
+nstxout = 0		; do not write coordinates to .trr trajectory file 
+nstvout = 0		; do not write velocities to .trr trajectory file 
+nstlog 	= 100000 	; frequency to write energies to log file 
+nstenergy = 5000	; frequency to write energies to .edr energy file 
+nstxtcout = 5000	; frequency to write coordinates to .xtc trajectory file
+
+xtc_grps = system	; group(s) to write to .xtc trajectory
+energygrps = system 	; group(s) to write to energy file 
+;NOTE: group name "system" is defined if you are NOT using an index file. If you use an
+;index file, all group references need to be consistent with the names given in the index
+;file. Our webpage, by default, names the chains "1", "2", ... You can change these names
+;to whatever you like, just make sure the mdp file uses the same naming scheme.
+
+nstlist = 20 
+;Frequency to update the neighbor list (and the long-range forces, 
+;when using twin-range cut-off's)
+
+ns_type = grid 
+;Make a grid in the box and only check atoms in neighboring grid cells 
+;when constructing a new neighbor list every nstlist steps. 
+
+rlist = 3.0		; cut-off distance for the short-range neighbor list
+rcoulomb = 3.0 		; treatment of electrostatic interactions, which are neglected
+rvdw = 3.0 		; treatment of van der waals interactions (the LJ potential)
+
+;NOTE: cut-offs should be longer if running a CA model than an AA model.
+;3.0 nm is about 2.5 times the typical longest interaction in a CA model.
+;Using a cutoff of 2.0 nm is completely reasonable as a 12A contact will have only
+;~1% of its potential energy at that distance. We leave 3.0 nm here for safety, but
+;if you know what you are doing feel free to decrease to 2.0 nm. If you have longer
+;contacts, then of course increase these numbers. 
+
+coulombtype = User 	; This tells gromacs to use the tables that we give it
+vdwtype = User 		; instead of the standard interaction types 
+pbc = no 		; Periodic boundary conditions not needed if CoM motions removed
+
+cutoff-scheme = group 
+table-extension = 50 	; (nm) required if using abc
+;NOTE: tables are not currently supported with verlet lists, meaning that CA cannot scale 
+;well with gromacs5. Usually this is not a problem since you only want to use 
+;a single processor for small proteins. Note that -pd is not available in gromacs5 
+;but instead openmp is used, but this is not available for cutoff-scheme group. 
+;Basically, you should use gromacs4.6 for calpha, until tables are supported in 5
+
+;Temperature coupling 
+tc-grps = system 
+tau_t = 1.0 		; Temp coupling time constant. Smaller values = stronger coupling 
+ref_t = 152.0 		; In reduced units. Many proteins fold at T=120-180 in CA model
+
+;Pressure coupling 
+Pcoupl = no 		; There is no solvent, thus we do not require pressure
+
+;Velocity generation 
+gen_vel = yes 		; Generate initial velocities based on a Maxwell distribution
+gen_temp = 152.0 	; Temp to generate initial velocities. Equals ref_t
+gen_seed = -1 		; Random seed for generation of initial velocities
+ld_seed = -1		; Random seed for langevin dynamics
+comm_mode = angular 	; Center of Mass velocity removal. Check if it is appropriate
