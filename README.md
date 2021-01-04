@@ -31,4 +31,4 @@ The following is a brief description of each tutorial, along with the open-sourc
 
 ## Contributions and Code of Conduct
 
-Please **read** our rules on [Contributions and Code of Conduct] before making any changes.
+Please **read** our rules on [Contributions and Code of Conduct](https://github.com/pb3lab/ibm3202/blob/master/contributions.md) before making any changes.
