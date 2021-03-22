@@ -34,6 +34,11 @@ Felipe Engelberger, Pablo Galaz-Davison, Graciela Bravo, Maira Rivera and César
 
 **Protein Biophysics, Biochemistry and Bioinformatics Lab [(PB<sup>3</sup>)](https://pb3.sitios.ing.uc.cl)**, Institute for Biological and Medical Engineering (IIBM) / Millenium Institute for Integrative Biology (iBio)
 
+## Cite us!
+
+If you use these tutorials in your research/teaching, please **cite us!:**
+Engelberger F, Galaz-Davison P, Bravo G, Rivera M, Ramírez-Sarmiento CA (2021) Developing and Implementing Cloud-Based Tutorials that Combine Bioinformatics Software, Interactive Coding and Visualization Exercises for Distance Learning on Structural Bioinformatics. _J Chem Educ, **Accepted**_ 
+
 ## Contributions and Code of Conduct
 
 Please **read** our rules on [Contributions and Code of Conduct](https://github.com/pb3lab/ibm3202/blob/master/contributions.md) before making any changes.
