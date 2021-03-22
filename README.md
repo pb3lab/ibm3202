@@ -37,6 +37,7 @@ Felipe Engelberger, Pablo Galaz-Davison, Graciela Bravo, Maira Rivera and César
 ## Cite us!
 
 If you use these tutorials in your research/teaching, please **cite us!:**
+
 Engelberger F, Galaz-Davison P, Bravo G, Rivera M, Ramírez-Sarmiento CA (2021) Developing and Implementing Cloud-Based Tutorials that Combine Bioinformatics Software, Interactive Coding and Visualization Exercises for Distance Learning on Structural Bioinformatics. _J Chem Educ, **Accepted**_ 
 
 ## Contributions and Code of Conduct
