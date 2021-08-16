@@ -35,6 +35,7 @@ The following is a brief description of each tutorial generated in 2021, along w
 
 | Tutorial | Description                           | Software                                                        |
 |--------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| Lab.12 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab12_abinitioRosetta.ipynb) | Protein folding ab initio using Rosetta                                             | pyRosetta [1], Biopython [4], py3Dmol [5]                                                                   |
 | Lab.13 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2021/lab13_protSBMDCA.ipynb) | Combining DCA and SBM to predict protein structures | Biopython [4], py3Dmol [5], pyDCA [18], SMOG2, SBM-enhanced GROMACS [3]                                                       |
 
 ## Authors
