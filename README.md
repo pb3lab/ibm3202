@@ -35,7 +35,7 @@ The following is a brief description of each tutorial generated in 2021, along w
 
 | Tutorial | Description                           | Software                                                        |
 |--------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| Lab.13 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2021/lab13_protSBMDCA.ipynb) | Combining DCA and SBM to predict protein structures | Biopython [4], py3Dmol [5], pyDCA [18], SMOG2, SBM-enhanced GROMACS [3]                                       |
+| Lab.13 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2021/lab13_protDCASBM.ipynb) | Combining DCA and SBM to predict protein structures | SMOG2, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], pyDCA [18]                                       |
 
 ## Authors
 Felipe Engelberger, Pablo Galaz-Davison, Graciela Bravo, Maira Rivera and César A. Ramírez Sarmiento.
