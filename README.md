@@ -1,6 +1,6 @@
 # Cloud-based Tutorials on Structural Bioinformatics
 ### Institute for Biological and Medical Engineering [(IIBM)](http://iibm.uc.cl), Pontificia Universidad Catolica de Chile
-### ANID – Millennium Science Initiative Program – Millenium Institute for Integrative Biology [(iBio)](http://ibio.cl)
+### ANID – Millennium Science Initiative Program – Millennium Institute for Integrative Biology [(iBio)](http://ibio.cl)
 ##
 ## Introduction
 This is a set of twelve (12) tutorials on protein folding, function, structure, dynamics and evolution for distance learning using the **Google Colab** free cloud-computing environment.
