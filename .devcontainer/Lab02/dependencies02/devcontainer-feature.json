@@ -1,0 +1,10 @@
+{
+    "name": "dependencies02",
+    "id": "02",
+    "version": "1.0.0",
+    "description": "A feature to install lab 02 dependencies.",
+    "options": {},
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
