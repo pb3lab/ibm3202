@@ -1,7 +1,7 @@
 integrator = sd		; use Langevin dynamics
 dt 	= 0.0005	; time step in reduced units 
 
-nsteps	= 50000000 	; number of integration steps 
+nsteps	= 10000000 	; number of integration steps 
 nstxout = 0		; do not write coordinates to .trr trajectory file 
 nstvout = 0		; do not write velocities to .trr trajectory file 
 nstlog 	= 100000 	; frequency to write energies to log file 
