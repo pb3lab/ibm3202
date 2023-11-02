@@ -30,9 +30,9 @@ The following is a brief description of each tutorial, along with the open-sourc
 | Lab.11 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab11_rnaDCA.ipynb) | Prediction of interactions from the coevolutionary analysis of sequence information | Biopython [4], py3Dmol [5], infernal [17], pyDCA [18]                      |
 | Lab.12 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/lab12_abinitioRosetta.ipynb) | Protein folding ab initio using Rosetta                                             | pyRosetta [1], Biopython [4], py3Dmol [5]                                                                   |
 
-## Tutorials – 2023
+## Tutorials – 2021 & 2023
 
-The following is a brief description of each tutorial generated in 2021, along with the open-source software used for each task:
+The following is a brief description of each tutorial generated in 2021 & 2023, along with the open-source software used for each task:
 
 | Tutorial | Description                           | Software                                                        |
 |--------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
