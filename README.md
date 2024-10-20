@@ -7,7 +7,7 @@ This is a set of twelve (12) tutorials on protein folding, function, structure, 
 
 These tutorials were created between Jun-Sep 2018 as part of the **IBM3202 Molecular Modelling and Simulation module** for execution of standalone computers and then fully redesigned between Jun-Jul 2020 for full execution over Google Colab and remote accesibility via web browsers due to the COVID-19 pandemic.
 
-Each tutorial includes a brief introduction of the activities to be performed, installation instructions of the open-source software to be used in each session and several programming, visualization and data analysis activities to be achieved during the tutorial. The only exception to this description is constituted by the installation of software for MD simulations and protein structure prediction, which have to be installed before starting the tutorials. Therefore, we created an additional tutorial for installation of this software.
+Each tutorial includes a brief introduction of the activities to be performed, installation instructions of the open-source software to be used in each session and several programming, visualization and data analysis activities to be achieved during the tutorial.
 
 ## Description of the Tutorials
 
