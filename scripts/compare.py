@@ -2,8 +2,8 @@ from modeller import *
 
 env = environ()
 aln = alignment(env)
-for (pdb, chain) in (('6eqe', 'A'), ('7dzv', 'A'), ('7ec8', 'A'),
-                     ('7nei', 'A'), ('6sbn', 'A'),):
+for (pdb, chain) in (('8d1d', 'A'), ('8cru', 'A'), ('6eqe', 'A'),
+                     ('8h5k', 'A'), ('7qvh', 'A'),):
     m = model(env, file=pdb, model_segment=('FIRST:'+chain, 'LAST:'+chain))
     aln.append_model(m, atom_files=pdb, align_codes=pdb+chain)
 aln.malign()

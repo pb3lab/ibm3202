@@ -9,7 +9,7 @@ a = automodel(env, alnfile='aligned.ali',
                               #soap_protein_od.Scorer(),
                               assess.GA341))
 a.starting_model = 1
-a.ending_model = 50
+a.ending_model = 10
 a.make()
 
 # Get a list of all successfully built models from a.outputs
