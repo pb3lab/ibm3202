@@ -36,7 +36,8 @@ The following is a brief description of each tutorial generated in 2021 & 2023, 
 | Tutorial | Description                           | Software                                                        |
 |--------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | Lab.13 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2021/lab13_protDCASBM.ipynb) | Combining DCA and SBM to predict protein structures | SMOG2, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], pyDCA [18]                          |
-| Lab.14 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2023/lab14_MSAtransformer.ipynb) | Combining MSA Transformer and SBM to predict protein structures | SMOG2, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], MSA Transformer                          |
+| Lab.14 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2021/lab14_vsdock.ipynb) | Virtual Screening on Autodock/QuickVina                                              | Biopython [4], py3Dmol [5], miniconda [7], Open Babel [12], pdb2pqr [13], MGLTools [14], Autodock Vina [15] , QuickVina [20] |
+| Lab.16 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pb3lab/ibm3202/blob/master/tutorials/2023/lab16_MSAtransformer.ipynb) | Combining MSA Transformer and SBM to predict protein structures | SMOG2, SBM-enhanced GROMACS [3], Biopython [4], py3Dmol [5], MSA Transformer                          |
 
 
 ## Tutorial for Structural Biology in 2022
@@ -82,3 +83,4 @@ Please **read** our rules on [Contributions and Code of Conduct](https://github.
 17. Nawrocki EP, Kolbe DL, Eddy SR. Infernal 1.0: inference of RNA alignments. Bioinformatics. 2009;25:1335–7. doi:10.1093/bioinformatics/btp157.
 18. Zerihun MB, Pucci F, Peter EK, Schug A. pydca v1.0: a comprehensive software for direct coupling analysis of RNA and protein sequences. Bioinformatics. 2020;36:2264–5. doi:10.1093/bioinformatics/btz892.
 19. Mirdita M, Schütze K, Moriwaki Y, Heo L, Ovchinnikov S, Steinegger M. ColabFold: making protein folding accessible to all. Nature Methods. 2022 May 30:1-4. doi:10.1038/s41592-022-01488-1.
+20. Alhossary A, Handoko SD, Mu Y, Kwoh CK. Fast, Accurate, and Reliable Molecular Docking with QuickVina 2. Bioinformatics. 2015, 31(13):2214-2216. doi:10.1093/bioinformatics/btv082.
