@@ -5,7 +5,7 @@
 ## Introduction
 This is a set of twelve (12) tutorials on protein folding, function, structure, dynamics and evolution for distance learning using the **Google Colab** free cloud-computing environment.
 
-These tutorials were created between Jun-Sep 2018 as part of the **IBM3202 Molecular Modelling and Simulation module** for execution of standalone computers and then fully redesigned between Jun-Jul 2020 for full execution over Google Colab and remote accesibility via web browsers due to the COVID-19 pandemic.
+These tutorials were created between Jun-Sep 2018 as part of the **IBM3202 Molecular Modelling and Simulation course** for execution of standalone computers and then fully redesigned between Jun-Jul 2020 for full execution over Google Colab and remote accesibility via web browsers due to the COVID-19 pandemic.
 
 Each tutorial includes a brief introduction of the activities to be performed, installation instructions of the open-source software to be used in each session and several programming, visualization and data analysis activities to be achieved during the tutorial.
 
